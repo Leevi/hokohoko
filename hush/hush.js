@@ -77,5 +77,5 @@ fs.writeFile(config.output, text, {
     flag: 'w'
 });
 
-console.info('' + lines.length + ' lines have been read from ' + config.input);
-console.info('' + output.length + ' lines have been written to ' + config.output);
+console.info('' + lines.length + ' rows have been read from ' + config.input);
+console.info('' + output.length + ' rows have been written to ' + config.output);
