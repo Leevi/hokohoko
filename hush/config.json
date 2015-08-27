@@ -1,0 +1,9 @@
+{
+    "algorithm" : "sha256",
+    "key"       : "",
+    "input"     : "input.txt",
+    "output"    : "output.txt",
+    "encoding"  : "utf8",
+    "column"    : 1,
+    "count"     : 2
+}
