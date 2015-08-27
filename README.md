@@ -24,4 +24,5 @@
 >
 ### **hush.js** - the main app
 > **Usage:** node hush [[input-file] output-file]
+>
 > Both input-file and out-file are optional and their default values are defined in config.json
