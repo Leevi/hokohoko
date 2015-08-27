@@ -1,3 +1,4 @@
+"use strict";
 
 // read config values.
 var config = require('./config');
@@ -16,6 +17,7 @@ if ( typeof config.column === 'undefined' )
 if ( !config.count )
     config.count = 1;
 
+// try to read command line arguments
 var argv = require('process').argv;
 if ( argv.length > 3 )
     config.output = argv[3];
@@ -75,3 +77,5 @@ fs.writeFile(config.output, text, {
     flag: 'w'
 });
 
+console.info('' + lines.length + ' lines has been read from ' + config.input);
+console.info('' + output.length + ' lines has been written to ' + config.output);
